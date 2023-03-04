@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#initialize swww daemon
+swww init
+
+# swww choose img
+swww img $HOME/Pictures/wallpapers/Books/wallhaven-vmqlwm.jpg --transition-type random --transition-fps 144

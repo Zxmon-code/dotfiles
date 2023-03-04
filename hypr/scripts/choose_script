@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+hypr_script_location=$HOME/.config/hypr/scripts
+
+chosen_script=$(ls $hypr_script_location | wofi -n --show dmenu -k "/dev/null/")
+$HOME/.config/hypr/scripts/$chosen_script
